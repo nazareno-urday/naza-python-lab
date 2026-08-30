@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🔐 Caesar Cipher
+# 🔨 Blind Auction
 
-**A message goes in. A shifted secret comes out.**
+**Everyone bids in secret. Python reveals the winner.**
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
 ![Interface](https://img.shields.io/badge/Interface-CLI-222222?style=flat-square)
@@ -12,13 +12,13 @@
 
 ---
 
-## 🔏 The experiment
+## 💰 The experiment
 
-Encode or decode a message by shifting every letter through the alphabet. The program supports custom shift values and wraps around when it reaches the end.
+Collect hidden bids from multiple participants, store them by name, and determine who submitted the highest offer.
 
 ## 🧠 Practiced here
 
-`Functions` · `Parameters` · `Loops` · `Strings` · `List indexes` · `Modulo`
+`Dictionaries` · `Functions` · `Loops` · `User input` · `Comparisons` · `Data storage`
 
 ## ▶️ Run it
 
@@ -30,12 +30,9 @@ No external dependencies required.
 
 ## 🧪 Lab note
 
-An experiment in using one reusable function to perform two opposite operations: encoding and decoding.
+My first experiment using a dictionary to connect each participant with their bid and process the collected data.
 
-> Next mutation: preserve letter case and add a brute-force decoder.
-
-> [!NOTE]
-> The Caesar cipher is useful for learning, but it is not secure modern encryption.
+> Next mutation: handle tied bids and improve input validation.
 
 ---
 
