@@ -1,52 +1,39 @@
-\# Rock Paper Scissors
+<div align="center">
 
+# 🪨 Rock · Paper · Scissors ✂️
 
+**Three choices. One random opponent. Zero mercy.**
 
-A command-line Rock Paper Scissors game written in Python. The player chooses an option and competes against a randomly generated computer choice.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Interface](https://img.shields.io/badge/Interface-CLI-222222?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-2ea44f?style=flat-square)
 
+</div>
 
+---
 
-\## Features
+## 🎮 The experiment
 
+A command-line version of the classic game. Choose your move, face a random computer decision, and let Python settle the argument.
 
+## 🧠 Practiced here
 
-\* Player versus computer gameplay
+`Variables` · `Lists` · `Conditionals` · `User input` · `Randomness` · `ASCII art`
 
-\* Random computer selections
+## ▶️ Run it
 
-\* ASCII art for each option
+```powershell
+py main.py
+```
 
-\* Winner detection using conditional logic
+No external dependencies required.
 
-\* Input validation
+## 🧪 Lab note
 
+My first complete terminal game and an early experiment in turning simple rules into working program logic.
 
+> Next mutation: replay mode and a scoreboard.
 
-\## Concepts Practiced
+---
 
-
-
-\* Variables and lists
-
-\* Conditional statements
-
-\* User input
-
-\* Randomization
-
-\* Basic game logic
-
-
-
-\## How to Run
-
-
-
-Run `python main.py` from this project's directory.
-
-
-
-No external dependencies are required.
-
-
-
+*Built during a guided Python challenge. Written, tested, and debugged by me.*
