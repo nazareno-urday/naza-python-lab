@@ -1,68 +1,41 @@
-\# Hangman
+<div align="center">
 
+# 🔤 Hangman
 
+**Guess carefully. Every wrong letter leaves a mark.**
 
-A command-line Hangman game written in Python. The player must discover a randomly selected word before running out of lives.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Interface](https://img.shields.io/badge/Interface-CLI-222222?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-2ea44f?style=flat-square)
 
+</div>
 
+---
 
-\## Features
+## 🎮 The experiment
 
+Python selects a random word while the player tries to reveal it one letter at a time. Wrong guesses cost lives and progressively complete the ASCII drawing.
 
+The word bank and artwork are kept in separate Python modules.
 
-\* Random word selection
+## 🧠 Practiced here
 
-\* Letter-by-letter guessing
+`Loops` · `Conditionals` · `Lists` · `Strings` · `Randomness` · `Imports` · `Game state`
 
-\* Previously guessed letter tracking
+## ▶️ Run it
 
-\* Remaining lives system
+```powershell
+py main.py
+```
 
-\* Progressive ASCII art
+No external dependencies required.
 
-\* Win and loss detection
+## 🧪 Lab note
 
+My first experiment organized across multiple Python files: game logic, word data, and visual assets.
 
+> Next mutation: repeated-letter detection, categories, and difficulty levels.
 
-\## Concepts Practiced
+---
 
-
-
-\* Python lists and strings
-
-\* `for` and `while` loops
-
-\* Conditional statements
-
-\* Modules and imports
-
-\* Random selection
-
-\* Game state management
-
-
-
-\## Project Files
-
-
-
-\* `main.py`: Main game logic
-
-\* `hangman\_art.py`: ASCII art and game stages
-
-\* `hangman\_words.py`: Collection of possible words
-
-
-
-\## How to Run
-
-
-
-Run `python main.py` from this project's directory.
-
-
-
-No external dependencies are required.
-
-
-
+*Built during a guided Python challenge. Written, tested, and debugged by me.*
