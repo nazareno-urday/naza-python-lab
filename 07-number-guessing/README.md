@@ -1,68 +1,39 @@
-\# Number Guessing Game
+<div align="center">
 
+# 🎯 Number Guessing Game
 
+**Python knows the answer. You only get a few guesses.**
 
-A command-line number guessing game written in Python. The computer selects a random number between 1 and 100, and the player must discover it before running out of attempts.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Interface](https://img.shields.io/badge/Interface-CLI-222222?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-2ea44f?style=flat-square)
 
+</div>
 
+---
 
-\## Features
+## 🔢 The experiment
 
+Python selects a random number between 1 and 100. Choose a difficulty, make your guesses, and use the higher-or-lower hints before your attempts disappear.
 
+## 🧠 Practiced here
 
-\* Random number generation
+`Functions` · `Loops` · `Conditionals` · `Randomness` · `Game state` · `Scope`
 
-\* Easy and hard difficulty levels
+## ▶️ Run it
 
-\* Limited number of attempts
+```powershell
+py main.py
+```
 
-\* Higher and lower hints
+No external dependencies required.
 
-\* Win and loss detection
+## 🧪 Lab note
 
-\* Remaining-attempt tracking
+An experiment in controlling limited attempts and keeping an interactive game running until a clear win or loss.
 
+> Next mutation: custom number ranges and a best-score tracker.
 
+---
 
-\## Concepts Practiced
-
-
-
-\* Python functions
-
-\* `while` loops
-
-\* Conditional statements
-
-\* Random selection
-
-\* Variables and global state
-
-\* User input
-
-\* Game state management
-
-
-
-\## Project Files
-
-
-
-\* `main.py`: Game logic and user interaction
-
-\* `art.py`: Program logo
-
-
-
-\## How to Run
-
-
-
-Run `python main.py` from this project's directory.
-
-
-
-No external dependencies are required.
-
-
-
+*Built during a guided Python challenge. Written, tested, and debugged by me.*
