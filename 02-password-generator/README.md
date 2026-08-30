@@ -1,50 +1,42 @@
-\# Password Generator
+<div align="center">
 
+# 🔐 Password Generator
 
+**You choose the ingredients. Python handles the chaos.**
 
-A command-line password generator written in Python. The user selects how many letters, numbers, and symbols the password should contain.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Interface](https://img.shields.io/badge/Interface-CLI-222222?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-2ea44f?style=flat-square)
 
+</div>
 
+---
 
-\## Features
+## ⚙️ The experiment
 
+Choose the number of letters, symbols, and digits. Python generates the pieces, shuffles them, and creates a randomized password.
 
+## 🧠 Practiced here
 
-\* Custom password length
+`Lists` · `Loops` · `User input` · `Randomness` · `Shuffling` · `Strings`
 
-\* Random letters, numbers, and symbols
+## ▶️ Run it
 
-\* Character shuffling
+```powershell
+py main.py
+```
 
-\* Different password generated each time
+No external dependencies required.
 
+## 🧪 Lab note
 
+An experiment in building dynamic results from rules selected by the user.
 
-\## Concepts Practiced
+> Next mutation: replace `random` with Python's secure `secrets` module.
 
+> [!NOTE]
+> This learning version should not generate passwords for real accounts.
 
+---
 
-\* Python lists
-
-\* `for` loops
-
-\* User input
-
-\* Random selection
-
-\* List manipulation
-
-
-
-\## How to Run
-
-
-
-Run `python main.py` from this project's directory.
-
-
-
-No external dependencies are required.
-
-
-
+*Built during a guided Python challenge. Written, tested, and debugged by me.*
