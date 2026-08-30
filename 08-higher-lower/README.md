@@ -1,72 +1,42 @@
-\# Higher or Lower
+<div align="center">
 
+# 📈 Higher or Lower
 
+**Two famous names. One bigger audience. Keep the streak alive.**
 
-A command-line comparison game written in Python. The player must decide which public figure has the larger social media following.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Interface](https://img.shields.io/badge/Interface-CLI-222222?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-2ea44f?style=flat-square)
 
+</div>
 
+---
 
-\## Features
+## 🌍 The experiment
 
+Compare two public figures and guess who has more followers. Every correct answer increases the score; one wrong decision ends the run.
 
+Profile data and ASCII artwork are organized in separate Python modules.
 
-\* Random celebrity selection
+## 🧠 Practiced here
 
-\* Follower-count comparisons
+`Dictionaries` · `Functions` · `Loops` · `Modules` · `Random selection` · `Score tracking`
 
-\* Continuous rounds after correct answers
+## ▶️ Run it
 
-\* Score tracking
+```powershell
+py main.py
+```
 
-\* Automatic opponent replacement
+No external dependencies required.
 
-\* Win and loss feedback
+## 🧪 Lab note
 
+An experiment combining structured data, repeated rounds, comparisons, and persistent game state.
 
+> Next mutation: separate the comparison logic from global state and add automated tests.
 
-\## Concepts Practiced
+---
 
-
-
-\* Python functions
-
-\* Dictionaries
-
-\* Lists
-
-\* `while` loops
-
-\* Conditional statements
-
-\* Random selection
-
-\* Modules and imports
-
-\* Game state management
-
-
-
-\## Project Files
-
-
-
-\* `main.py`: Game logic and user interaction
-
-\* `art.py`: Program logo and comparison artwork
-
-\* `game\_data.py`: Celebrity information and follower counts
-
-
-
-\## How to Run
-
-
-
-Run `python main.py` from this project's directory.
-
-
-
-No external dependencies are required.
-
-
-
+*Built during a guided Python challenge. Written, tested, and debugged by me.*
+s
