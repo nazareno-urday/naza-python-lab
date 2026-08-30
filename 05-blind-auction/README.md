@@ -1,64 +1,42 @@
-\# Blind Auction
+<div align="center">
 
+# 🔐 Caesar Cipher
 
+**A message goes in. A shifted secret comes out.**
 
-A command-line blind auction program written in Python. Multiple participants can enter private bids, and the program determines the highest bidder.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Interface](https://img.shields.io/badge/Interface-CLI-222222?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-2ea44f?style=flat-square)
 
+</div>
 
+---
 
-\## Features
+## 🔏 The experiment
 
+Encode or decode a message by shifting every letter through the alphabet. The program supports custom shift values and wraps around when it reaches the end.
 
+## 🧠 Practiced here
 
-\* Support for multiple bidders
+`Functions` · `Parameters` · `Loops` · `Strings` · `List indexes` · `Modulo`
 
-\* Name and bid registration
+## ▶️ Run it
 
-\* Bid information stored in a dictionary
+```powershell
+py main.py
+```
 
-\* Automatic highest-bid detection
+No external dependencies required.
 
-\* Final winner announcement
+## 🧪 Lab note
 
+An experiment in using one reusable function to perform two opposite operations: encoding and decoding.
 
+> Next mutation: preserve letter case and add a brute-force decoder.
 
-\## Concepts Practiced
+> [!NOTE]
+> The Caesar cipher is useful for learning, but it is not secure modern encryption.
 
+---
 
-
-\* Python dictionaries
-
-\* Functions
-
-\* `for` and `while` loops
-
-\* Conditional statements
-
-\* User input
-
-\* Data comparison
-
-
-
-\## Project Files
-
-
-
-\* `main.py`: Auction logic and user interaction
-
-\* `art.py`: Program logo
-
-
-
-\## How to Run
-
-
-
-Run `python main.py` from this project's directory.
-
-
-
-No external dependencies are required.
-
-
-
+*Built during a guided Python challenge. Written, tested, and debugged by me.*
