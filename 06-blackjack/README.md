@@ -1,70 +1,39 @@
-\# Blackjack
+<div align="center">
 
+# ♠️ Blackjack
 
+**Beat the computer. Reach 21. Try not to get greedy.**
 
-A command-line Blackjack game written in Python. The player competes against a computer-controlled dealer and tries to obtain the best score without exceeding 21.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Interface](https://img.shields.io/badge/Interface-CLI-222222?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-2ea44f?style=flat-square)
 
+</div>
 
+---
 
-\## Features
+## 🃏 The experiment
 
+A command-line Blackjack game against the computer. Draw cards, track both hands, and decide whether to risk another card or protect your score.
 
+## 🧠 Practiced here
 
-\* Player versus computer gameplay
+`Functions` · `Lists` · `Loops` · `Conditionals` · `Return values` · `Game state`
 
-\* Random card dealing
+## ▶️ Run it
 
-\* Hit or stand decisions
+```powershell
+py main.py
+```
 
-\* Score calculation
+No external dependencies required.
 
-\* Blackjack and bust detection
+## 🧪 Lab note
 
-\* Automatic dealer behavior
+A larger experiment combining multiple functions and game rules inside one complete program.
 
-\* Winner determination
+> Next mutation: multiple rounds, a betting system, and automated tests.
 
+---
 
-
-\## Concepts Practiced
-
-
-
-\* Python functions
-
-\* Lists
-
-\* `for` and `while` loops
-
-\* Conditional statements
-
-\* Random selection
-
-\* Game state management
-
-\* Score comparison
-
-
-
-\## Project Files
-
-
-
-\* `main.py`: Blackjack rules and game logic
-
-\* `art.py`: Program logo
-
-
-
-\## How to Run
-
-
-
-Run `python main.py` from this project's directory.
-
-
-
-No external dependencies are required.
-
-
-
+*Built during a guided Python challenge. Written, tested, and debugged by me.*
