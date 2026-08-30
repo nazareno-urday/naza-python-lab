@@ -1,68 +1,42 @@
-\# Caesar Cipher
+<div align="center">
 
+# 🔐 Caesar Cipher
 
+**A message goes in. A shifted secret comes out.**
 
-A command-line Caesar Cipher program written in Python. It can encode and decode messages by shifting each letter through the alphabet.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Interface](https://img.shields.io/badge/Interface-CLI-222222?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-2ea44f?style=flat-square)
 
+</div>
 
+---
 
-\## Features
+## 🔏 The experiment
 
+Encode or decode a message by shifting every letter through the alphabet. The program supports custom shift values and wraps around when it reaches the end.
 
+## 🧠 Practiced here
 
-\* Message encoding
+`Functions` · `Parameters` · `Loops` · `Strings` · `List indexes` · `Modulo`
 
-\* Message decoding
+## ▶️ Run it
 
-\* Custom shift values
+```powershell
+py main.py
+```
 
-\* Shift values larger than the alphabet
+No external dependencies required.
 
-\* Support for spaces and special characters
+## 🧪 Lab note
 
-\* Option to process multiple messages
+An experiment in using one reusable function to perform two opposite operations: encoding and decoding.
 
+> Next mutation: preserve letter case and add a brute-force decoder.
 
+> [!NOTE]
+> The Caesar cipher is useful for learning, but it is not secure modern encryption.
 
-\## Concepts Practiced
+---
 
-
-
-\* Python functions
-
-\* Function parameters
-
-\* Lists and strings
-
-\* `for` and `while` loops
-
-\* Modular arithmetic
-
-\* Input validation
-
-\* Modules and imports
-
-
-
-\## Project Files
-
-
-
-\* `main.py`: Cipher logic and user interaction
-
-\* `art.py`: Program logo
-
-
-
-\## How to Run
-
-
-
-Run `python main.py` from this project's directory.
-
-
-
-No external dependencies are required.
-
-
-
+*Built during a guided Python challenge. Written, tested, and debugged by me.*
