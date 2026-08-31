@@ -20,7 +20,7 @@ The calculator supports addition, subtraction, multiplication, and division. Eac
 
 ## 🧠 Practiced here
 
-`Functions` · `Dictionaries` · `Loops` · `Operation mapping` · `Control flow` · `State reuse`
+`Functions` · `Loops` · `Operation mapping` · `Control flow` · `State reuse`
 
 ## ▶️ Run it
 
