@@ -1,56 +1,41 @@
-<h1 align="center">☕ Coffee Machine</h1>
+<div align="center">
 
+# ☕ Coffee Machine
 
+**Three drinks. Limited resources. Keep the machine running.**
 
-<p align="center">
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Interface](https://img.shields.io/badge/Interface-CLI-222222?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-2ea44f?style=flat-square)
 
-&#x20; <strong>Three drinks. Limited resources. One working machine.</strong>
+</div>
 
-</p>
+---
 
+## ⚙️ The experiment
 
+Choose between espresso, latte, and cappuccino while the machine manages its available water, milk, coffee, and profit.
 
-<p align="center">
+Every order checks the required ingredients, processes the inserted coins, calculates change, and updates the remaining resources after a successful transaction.
 
-&#x20; <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white">
+## 🧠 Practiced here
 
-&#x20; <img src="https://img.shields.io/badge/Interface-CLI-222222?style=flat-square">
+`Nested dictionaries` · `Functions` · `Loops` · `Resource tracking` · `Transactions` · `State management`
 
-&#x20; <img src="https://img.shields.io/badge/Status-Complete-2ea44f?style=flat-square">
-
-</p>
-
-
-
-\---
-
-
-
-\## ⚙️ The experiment
-
-
-
-A command-line coffee machine that manages ingredients, processes payments, calculates change, and tracks profit.
-
-
-
-Choose between espresso, latte, and cappuccino. Before every order, the machine checks its remaining resources and only prepares the drink when both ingredients and payment are sufficient.
-
-
-
-\## 🧠 Practiced here
-
-
-
-`Nested dictionaries` · `Functions` · `Loops` · `State management` · `Resource tracking` · `Transaactions`
-
-
-
-\## ▶️ Run it
-
-
+## ▶️ Run it
 
 ```powershell
-
 py main.py
+```
 
+No external dependencies required.
+
+## 🧪 Lab note
+
+An experiment combining structured data, resource validation, payment processing, and persistent machine state.
+
+> Next mutation: replace global state with a class and add stronger input validation.
+
+---
+
+*Built during a guided Python challenge. Written, tested, and debugged by me.*
