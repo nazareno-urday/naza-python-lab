@@ -37,7 +37,7 @@ Administrative commands can display the current machine state or shut the progra
 All Python files must remain together inside the same directory because `main.py` imports the other modules.
 
 ```text
-16-Coffee-Machine-OOP/
+11-Coffee-Machine-OOP/
 ├── art.py
 ├── coffee_maker.py
 ├── main.py
@@ -73,7 +73,7 @@ git clone https://github.com/nazareno-urday/naza-python-lab.git
 Enter the project directory:
 
 ```powershell
-cd naza-python-lab/16-Coffee-Machine-OOP
+cd naza-python-lab/11-Coffee-Machine-OOP
 ```
 
 Run the application:
