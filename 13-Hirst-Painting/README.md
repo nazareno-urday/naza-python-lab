@@ -1,132 +1,57 @@
-<div align="center">
+# 🎨 Hirst-Inspired Dot Painting
 
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Graphics](https://img.shields.io/badge/Graphics-Turtle-2EA44F?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Complete-2EA44F?style=flat-square)
 
+A generative 10 × 10 dot painting created with Python Turtle. Every execution produces a different color composition.
 
-\# 🎨 Hirst-Inspired Dot Painting
+---
 
+## 📸 Preview
 
+![Hirst-inspired dot painting generated with Python](preview.png)
 
-\*\*One hundred colorful dots. A different composition every time.\*\*
+## 🖼️ About the project
 
+The program creates a grid of 100 colored dots inspired by Damien Hirst's spot paintings.
 
+The original RGB palette was extracted from a reference image using `colorgram.py`. The selected colors are now stored directly in the program, so no external packages or source images are required to run it.
 
-!\[Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\\\&logo=python\\\&logoColor=white)
+## ⚙️ How it works
 
-!\[Graphics](https://img.shields.io/badge/Graphics-Turtle-2EA44F?style=flat-square)
+* The turtle begins in the bottom-left corner.
+* Two nested loops create ten rows with ten dots each.
+* Each dot receives a randomly selected RGB color.
+* The turtle moves to the next row after completing each line.
+* A new composition is generated every time the program runs.
 
-!\[Status](https://img.shields.io/badge/Status-Complete-2EA44F?style=flat-square)
+## 🧠 Concepts practiced
 
+* Turtle graphics
+* RGB color tuples
+* Nested loops
+* Random selection
+* Coordinates and positioning
+* Working with an extracted color palette
 
-
-</div>
-
-
-
-\---
-
-
-
-\## 🖼️ The experiment
-
-
-
-Generate a colorful 10 × 10 dot painting inspired by the visual style of Damien Hirst's spot paintings.
-
-
-
-The RGB color palette was originally extracted from a reference painting using `colorgram.py`. The final palette is stored directly in the program, so each execution can randomly create a new composition.
-
-
-
-\## 📸 Preview
-
-
-
-!\[Generated Hirst-inspired dot painting](preview.png)
-
-
-
-\## ⚙️ How it works
-
-
-
-The turtle begins in the bottom-left corner and moves horizontally across the canvas.
-
-
-
-For every position, the program:
-
-
-
-1\. Randomly selects an RGB color from the extracted palette.
-
-2\. Draws a colored dot.
-
-3\. Moves to the next position.
-
-4\. Repeats the process across ten rows.
-
-
-
-Because the colors are selected randomly, every generated painting is unique.
-
-
-
-\## 🧠 Practiced here
-
-
-
-`Turtle graphics` · `RGB colors` · `Tuples` · `Nested loops` · `Random selection` · `Coordinates`
-
-
-
-\## 📁 Project structure
-
-
-
-```text
-
-Hirst-Painting/
-
-├── main.py
-
-├── preview.png
-
-└── README.md
-
-```
-
-
-
-\## 🚀 Run locally
-
-
-
-Clone or download the project and run:
-
-
+## 🚀 Run the project
 
 ```bash
-
 python main.py
-
 ```
 
+Python's `turtle` and `random` modules are included with Python, so no additional dependencies are required.
 
+## 📁 Project structure
 
-No external dependencies are required. `turtle` and `random` are included with Python.
+```text
+13-Hirst-Painting/
+├── main.py
+├── preview.png
+└── README.md
+```
 
+## 📝 Note
 
-
-\## 📝 Note
-
-
-
-This project was created for educational purposes while learning Python graphics and working with RGB color palettes.
-
-
-
-It is an independent programming exercise and is not affiliated with the original artist.
-
-
-
+This project was created for educational purposes while learning Python graphics and color manipulation.
