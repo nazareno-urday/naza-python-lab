@@ -1,22 +1,32 @@
-# 🎨 Hirst-Inspired Dot Painting
+<h1 align="center">🎨 Hirst-Inspired Dot Painting</h1>
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![Graphics](https://img.shields.io/badge/Graphics-Turtle-2EA44F?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Complete-2EA44F?style=flat-square)
+<p align="center">
+  <strong>One hundred colorful dots. A different composition every time.</strong>
+</p>
 
-A generative 10 × 10 dot painting created with Python Turtle. Every execution produces a different color composition.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Graphics-Turtle-2EA44F?style=flat-square" alt="Turtle">
+  <img src="https://img.shields.io/badge/Status-Complete-2EA44F?style=flat-square" alt="Status">
+</p>
+
+<p align="center">
+  A generative 10 × 10 dot painting created with Python Turtle.
+</p>
 
 ---
 
 ## 📸 Preview
 
-![Hirst-inspired dot painting generated with Python](preview.png)
+<p align="center">
+  <img src="preview.png" alt="Hirst-inspired dot painting generated with Python" width="850">
+</p>
 
 ## 🖼️ About the project
 
 The program creates a grid of 100 colored dots inspired by Damien Hirst's spot paintings.
 
-The original RGB palette was extracted from a reference image using `colorgram.py`. The selected colors are now stored directly in the program, so no external packages or source images are required to run it.
+The original RGB palette was extracted from a reference image using `colorgram.py`. The selected colors are stored directly in the program, so no external packages or source images are required to run it.
 
 ## ⚙️ How it works
 
@@ -28,12 +38,7 @@ The original RGB palette was extracted from a reference image using `colorgram.p
 
 ## 🧠 Concepts practiced
 
-* Turtle graphics
-* RGB color tuples
-* Nested loops
-* Random selection
-* Coordinates and positioning
-* Working with an extracted color palette
+`Turtle graphics` · `RGB tuples` · `Nested loops` · `Random selection` · `Coordinates` · `Color extraction`
 
 ## 🚀 Run the project
 
