@@ -1,197 +1,125 @@
 <div align="center">
-  <img
-    src="./assets/python-lab-cover.png"
-    alt="Naza's Python Laboratory — programmer, Python snake, rubber duck reviewer and a tiny software bug"
-    width="100%"
-  />
+
+🐍 Snake Game
+
+Eat, grow, and survive without hitting the walls or your own tail.
+
+
+
+
+
+
 </div>
 
-<h1 align="center">🧪 Naza's Python Laboratory 🐍</h1>
+🎮 The game
 
-<p align="center">
-  <strong>Small scripts. Loud bugs. Serious progress.</strong>
-</p>
+A classic Snake game built entirely with Python's standard-library turtle module.
 
-<p align="center">
-  A living record of my journey from Python fundamentals to better software.
-</p>
+Guide the snake around the board, collect the blue food, and grow one segment at a time. The run ends when the snake collides with a wall or with its own body.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-Learning-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Learning">
-  <img src="https://img.shields.io/badge/Lab%20Status-Experiments%20Running-2ea44f?style=for-the-badge" alt="Experiments Running">
-  <img src="https://img.shields.io/badge/Code%20Reviewer-Rubber%20Duck-f6c344?style=for-the-badge" alt="Rubber Duck Reviewer">
-</p>
+🕹️ Controls
 
----
+Key
 
-## 👋 Welcome to the laboratory
+Action
 
-I'm **Nazareno “Naza” Urday**, an AI Engineering student building strong foundations in Python, programming, and software development.
+↑
 
-This repository is my permanent Python practice laboratory.
+Move up
 
-It is not a finished portfolio, a collection of perfect solutions, or a museum where every piece of code pretends to be production-ready. It is a real engineering notebook: ideas become scripts, scripts produce bugs, bugs produce lessons, and those lessons eventually produce better code.
+↓
 
-Every numbered folder contains an independent experiment with its own code, supporting files when required, and a short README explaining what it does.
+Move down
 
----
+←
 
-## 🔬 What happens here?
+Move left
 
-Inside this laboratory, I practice and document topics such as:
+→
 
-* Python fundamentals
-* Control flow, loops, and functions
-* Lists, dictionaries, and other data structures
-* Problem-solving and algorithmic thinking
-* Modules and program organization
-* Debugging and refactoring
-* Object-oriented programming
-* Files, exceptions, and testing
-* Small games, utilities, and programming experiments
+Move right
 
-The experiments will become more complex as my skills grow.
+The snake cannot instantly reverse into the opposite direction.
 
-Early code is not hidden or rewritten to make it look more advanced than it was. It stays here as evidence of progress.
+✨ Features
 
----
+Continuous movement with keyboard-controlled direction changes
 
-## 🧬 The scientific method
+Random food placement inside the playable area
 
-Every experiment follows a highly sophisticated research process:
+Snake growth after every collected food item
 
-1. Start with an idea.
-2. Write the first version.
-3. Run the program.
-4. Meet a new `Traceback`.
-5. Briefly suspect the computer.
-6. Consult the rubber duck.
-7. Discover that the computer was right.
-8. Fix the problem.
-9. Understand the solution.
-10. Commit the lesson.
+Live score tracking
 
-```python
-while not understood:
-    experiment()
-    debug()
-    ask_better_questions()
-```
+Wall and self-collision detection
 
----
+Game-over message when the run ends
 
-## 👨‍🔬 Laboratory personnel
+Smooth screen updates using manual animation control
 
-| Member           | Position             | Responsibility                                       |
-| ---------------- | -------------------- | ---------------------------------------------------- |
-| **Naza**         | Lead Experimenter    | Writes, breaks, studies, and improves the code       |
-| **Python Snake** | Technical Specialist | Keeps the syntax under control                       |
-| **Rubber Duck**  | Senior Code Reviewer | Listens carefully and judges silently                |
-| **The Bug**      | Unpaid Intern        | Appears five minutes before every demonstration      |
-| **`print()`**    | Emergency Department | Called whenever nobody understands what is happening |
+Modular object-oriented design
 
----
+🧩 Project structure
 
-## 🗂️ Anatomy of an experiment
+15-Snake-Game/
+├── main.py        # Creates the game window and runs the game loop
+├── snake.py       # Handles snake creation, movement, growth, and direction
+├── food.py        # Creates and randomly relocates the food
+├── scoreboard.py  # Displays the score and game-over message
+└── README.md
 
-A typical project inside the lab contains:
+⚙️ How it works
 
-```text
-project-name/
-├── main.py
-├── README.md
-└── supporting_files.py
-```
+The application is split into four focused modules:
 
-Some experiments require additional modules such as artwork, word lists, or data files. Only the files needed to understand and run the project are included.
+main.py coordinates the screen, keyboard events, timing, and collision checks.
 
-Each project README explains:
+snake.py manages the snake's segments and prevents illegal 180-degree turns.
 
-* What the program does
-* What concepts I practiced
-* How to run it
-* What I learned
-* What could be improved later
+food.py extends Turtle to represent food and move it to a new random position.
 
----
+scoreboard.py extends Turtle to render the current score and final message.
 
-## 📜 Laboratory rules
+Every frame, the body segments move from tail to head before the head advances. This creates the effect of the entire snake following the path of its first segment.
 
-* I should be able to explain every line of code stored here.
-* Bugs are allowed; unexplained bugs are not.
-* Guided exercises and course-based challenges are identified honestly.
-* `solution.py` files do not belong in my experiments.
-* Commits should represent real work and real progress.
-* Refactoring is part of the experiment, not a way to erase the past.
-* Working code is good. Understood code is better.
+🚀 Run locally
 
-Some projects begin with requirements or guidance from programming courses. The implementations kept here are the versions I wrote, tested, debugged, and studied during my learning process.
+Requirements
 
----
+Python 3.x
 
-## 🐍 One laboratory, one purpose
+A desktop environment with Tk support for turtle
 
-This repository belongs exclusively to **Python practice and software fundamentals**.
+No third-party packages are required.
 
-Machine learning, deep learning, MLOps, AI systems, and other specialized areas will receive separate repositories and laboratories when their experiments begin.
+Start the game
 
-Different laboratory. Different equipment. Probably the same rubber duck.
+git clone <your-repository-url>
+cd python-lab/01-foundations/15-Snake-Game
+python main.py
 
----
+If your system uses python3 instead of python, run:
 
-## ▶️ Running an experiment
+python3 main.py
 
-Clone the laboratory:
+🧠 Practiced here
 
-```bash
-git clone https://github.com/nazareno-urday/naza-python-lab.git
-cd naza-python-lab
-```
+Object-oriented programming · Classes and inheritance · Event listeners · Game loops · Collision detection · List slicing · Module organization · Turtle graphics
 
-Enter the folder of the experiment you want to run.
+🌱 Possible next steps
 
-On Windows:
+Save and display a persistent high score
 
-```powershell
-py .\project-folder\main.py
-```
+Add a restart option
 
-On macOS or Linux:
+Increase the speed as the score grows
 
-```bash
-python3 ./project-folder/main.py
-```
+Align food to the movement grid
 
-If an experiment requires anything beyond Python's standard library, its individual README will explain it.
+Add difficulty levels and visual themes
 
----
+<div align="center">
 
-## 🚧 Laboratory status
+Project 15 — Python Foundations
 
-```text
-Experiments: running
-Curiosity: operational
-Bug population: under observation
-Coffee reserves: classified
-Final version: not expected
-```
-
-This laboratory has no completion percentage because learning Python does not have a final level. New experiments, cleaner implementations, refactors, and better documentation will appear as I continue learning.
-
-<details>
-<summary><strong>⚠️ Laboratory safety notice</strong></summary>
-
-Some early experiments may contain unnecessary variables, suspiciously large functions, excessive `print()` statements, or logic that could be simplified.
-
-Protective goggles are optional. Patience is mandatory.
-
-</details>
-
----
-
-> **Day zero is not something to hide. It is the control group for everything that comes next.**
-
-<p align="center">
-  Built with Python, curiosity, and a suspicious number of <code>print()</code> statements.
-</p>
-
+</div>
