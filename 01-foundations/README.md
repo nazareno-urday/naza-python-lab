@@ -1,9 +1,9 @@
 <div align="center">
 
 <p align="center">
-  <img src="./13-Hirst-Painting/preview.png"
-       alt="Python Foundations project preview"
-       width="520">
+  <img src="../assets/python-foundations-banner.png"
+       alt="Python Foundations"
+       width="100%">
 </p>
 
 # 🐍 Python Foundations
