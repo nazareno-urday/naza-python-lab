@@ -1,125 +1,53 @@
-<div align="center">
+<h1 align="center">🐍 Snake Game</h1>
 
-🐍 Snake Game
+<p align="center">
+  <strong>Eat. Grow. Survive.</strong><br>
+  A classic Snake game built with Python and Turtle.
+</p>
 
-Eat, grow, and survive without hitting the walls or your own tail.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/GUI-Turtle-2E8B57?style=for-the-badge" alt="Turtle">
+  <img src="https://img.shields.io/badge/Style-OOP-8A2BE2?style=for-the-badge" alt="OOP">
+</p>
 
+---
 
+## 🎮 About the game
 
+A classic Snake game developed entirely with Python's standard-library `turtle` module.
 
+Control the snake, collect the blue food, and grow one segment at a time. The game ends when the snake collides with a wall or its own body.
 
+## 🕹️ Controls
 
-</div>
+| Key | Movement |
+|:---:|:---|
+| <kbd>↑</kbd> | Up |
+| <kbd>↓</kbd> | Down |
+| <kbd>←</kbd> | Left |
+| <kbd>→</kbd> | Right |
 
-🎮 The game
+Opposite-direction turns are blocked to prevent the snake from reversing into itself.
 
-A classic Snake game built entirely with Python's standard-library turtle module.
+## ✨ Features
 
-Guide the snake around the board, collect the blue food, and grow one segment at a time. The run ends when the snake collides with a wall or with its own body.
+- Smooth continuous movement
+- Keyboard direction controls
+- Random food placement
+- Snake growth after collecting food
+- Live score tracking
+- Wall collision detection
+- Self-collision detection
+- Game-over screen
+- Modular object-oriented design
 
-🕹️ Controls
+## 🧩 Project structure
 
-Key
-
-Action
-
-↑
-
-Move up
-
-↓
-
-Move down
-
-←
-
-Move left
-
-→
-
-Move right
-
-The snake cannot instantly reverse into the opposite direction.
-
-✨ Features
-
-Continuous movement with keyboard-controlled direction changes
-
-Random food placement inside the playable area
-
-Snake growth after every collected food item
-
-Live score tracking
-
-Wall and self-collision detection
-
-Game-over message when the run ends
-
-Smooth screen updates using manual animation control
-
-Modular object-oriented design
-
-🧩 Project structure
-
-15-Snake-Game/
-├── main.py        # Creates the game window and runs the game loop
-├── snake.py       # Handles snake creation, movement, growth, and direction
-├── food.py        # Creates and randomly relocates the food
-├── scoreboard.py  # Displays the score and game-over message
-└── README.md
-
-⚙️ How it works
-
-The application is split into four focused modules:
-
-main.py coordinates the screen, keyboard events, timing, and collision checks.
-
-snake.py manages the snake's segments and prevents illegal 180-degree turns.
-
-food.py extends Turtle to represent food and move it to a new random position.
-
-scoreboard.py extends Turtle to render the current score and final message.
-
-Every frame, the body segments move from tail to head before the head advances. This creates the effect of the entire snake following the path of its first segment.
-
-🚀 Run locally
-
-Requirements
-
-Python 3.x
-
-A desktop environment with Tk support for turtle
-
-No third-party packages are required.
-
-Start the game
-
-git clone <your-repository-url>
-cd python-lab/01-foundations/15-Snake-Game
-python main.py
-
-If your system uses python3 instead of python, run:
-
-python3 main.py
-
-🧠 Practiced here
-
-Object-oriented programming · Classes and inheritance · Event listeners · Game loops · Collision detection · List slicing · Module organization · Turtle graphics
-
-🌱 Possible next steps
-
-Save and display a persistent high score
-
-Add a restart option
-
-Increase the speed as the score grows
-
-Align food to the movement grid
-
-Add difficulty levels and visual themes
-
-<div align="center">
-
-Project 15 — Python Foundations
-
-</div>
+```text
+16-Snake-Game/
+├── main.py        # Game loop, controls, and collision detection
+├── snake.py       # Snake movement, direction, and growth
+├── food.py        # Food creation and random positioning
+├── scoreboard.py  # Score display and game-over message
+└── README.md       # Project documentation
