@@ -1,12 +1,12 @@
-<div align="center">
+﻿<div align="center">
   <img
     src="./assets/python-lab-cover.png"
-    alt="Naza's Python Laboratory — programmer, Python snake, rubber duck reviewer and a tiny software bug"
+    alt="Naza's Python Laboratory â€” programmer, Python snake, rubber duck reviewer and a tiny software bug"
     width="100%"
   />
 </div>
 
-<h1 align="center">🧪 Naza's Python Laboratory 🐍</h1>
+<h1 align="center">ðŸ§ª Naza's Python Laboratory ðŸ</h1>
 
 <p align="center">
   <strong>Small scripts. Loud bugs. Serious progress.</strong>
@@ -24,9 +24,9 @@
 
 ---
 
-## 👋 Welcome to the laboratory
+## ðŸ‘‹ Welcome to the laboratory
 
-I'm **Nazareno “Naza” Urday**, an AI Engineering student building strong foundations in Python, programming, and software development.
+I'm **Nazareno â€œNazaâ€ Urday**, an AI Engineering student building strong foundations in Python, programming, and software development.
 
 This repository is my permanent Python practice laboratory.
 
@@ -36,7 +36,7 @@ Every numbered folder contains an independent experiment with its own code, supp
 
 ---
 
-## 🔬 What happens here?
+## ðŸ”¬ What happens here?
 
 Inside this laboratory, I practice and document topics such as:
 
@@ -56,7 +56,7 @@ Early code is not hidden or rewritten to make it look more advanced than it was.
 
 ---
 
-## 🧬 The scientific method
+## ðŸ§¬ The scientific method
 
 Every experiment follows a highly sophisticated research process:
 
@@ -80,7 +80,7 @@ while not understood:
 
 ---
 
-## 👨‍🔬 Laboratory personnel
+## ðŸ‘¨â€ðŸ”¬ Laboratory personnel
 
 | Member           | Position             | Responsibility                                       |
 | ---------------- | -------------------- | ---------------------------------------------------- |
@@ -92,15 +92,15 @@ while not understood:
 
 ---
 
-## 🗂️ Anatomy of an experiment
+## ðŸ—‚ï¸ Anatomy of an experiment
 
 A typical project inside the lab contains:
 
 ```text
 project-name/
-├── main.py
-├── README.md
-└── supporting_files.py
+â”œâ”€â”€ main.py
+â”œâ”€â”€ README.md
+â””â”€â”€ supporting_files.py
 ```
 
 Some experiments require additional modules such as artwork, word lists, or data files. Only the files needed to understand and run the project are included.
@@ -115,7 +115,7 @@ Each project README explains:
 
 ---
 
-## 📜 Laboratory rules
+## ðŸ“œ Laboratory rules
 
 * I should be able to explain every line of code stored here.
 * Bugs are allowed; unexplained bugs are not.
@@ -129,7 +129,7 @@ Some projects begin with requirements or guidance from programming courses. The 
 
 ---
 
-## 🐍 One laboratory, one purpose
+## ðŸ One laboratory, one purpose
 
 This repository belongs exclusively to **Python practice and software fundamentals**.
 
@@ -139,7 +139,7 @@ Different laboratory. Different equipment. Probably the same rubber duck.
 
 ---
 
-## ▶️ Running an experiment
+## â–¶ï¸ Running an experiment
 
 Clone the laboratory:
 
@@ -166,7 +166,7 @@ If an experiment requires anything beyond Python's standard library, its individ
 
 ---
 
-## 🚧 Laboratory status
+## ðŸš§ Laboratory status
 
 ```text
 Experiments: running
@@ -179,7 +179,7 @@ Final version: not expected
 This laboratory has no completion percentage because learning Python does not have a final level. New experiments, cleaner implementations, refactors, and better documentation will appear as I continue learning.
 
 <details>
-<summary><strong>⚠️ Laboratory safety notice</strong></summary>
+<summary><strong>âš ï¸ Laboratory safety notice</strong></summary>
 
 Some early experiments may contain unnecessary variables, suspiciously large functions, excessive `print()` statements, or logic that could be simplified.
 
@@ -194,3 +194,4 @@ Protective goggles are optional. Patience is mandatory.
 <p align="center">
   Built with Python, curiosity, and a suspicious number of <code>print()</code> statements.
 </p>
+
